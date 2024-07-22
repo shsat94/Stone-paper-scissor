@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #261132;
+}
+
+
+/* CSS for the welcome page */
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 8%;  
+}
+
+h1#welcome{
+    font-size: 6rem;
+    color: #BA5C12;
+}
+
+h3{
+    font-size: 3rem;
+    color: #CD9327;
+}
+
+#welcome-para{
+    font-size: 1.5rem;
+    color: #FFB86F;
+}
+
+#rounds{
+    
+    padding: 0.7rem;
+    border: solid 0.3rem black;
+    border-radius: 1rem;
+    background-color: #F0C156;
+    box-shadow: 0 0 1rem #000000;
+    font-size: 1.25rem ;
+    color: #382851;
+}
+
+#start-game{
+    padding: 0.7rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #3E2F5B;
+    box-shadow: 0 0 1rem #000000;
+    font-size: 1.25rem ;
+    color: #FFB86F;
+    
+}
+#start-game:hover{
+    padding: 0.7rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #6638bc;
+    box-shadow: 0 0 1rem #000000;
+    font-size: 1.25rem ;
+    color: #FFB86F;
+    cursor: pointer;
+}
+
+/* CSS for the main page  */
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+h2#main{
+    font-size: 3rem;
+    color: #CD9327;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:1rem;
+    margin-left: 8rem;
+}
+
+#stone,#scissor{
+    height: 15rem;
+}
+#paper{
+    height: 12rem;
+    width: 15rem;
+    margin-top: 1.4rem;
+}
+
+#scissor{
+    height: 12rem;
+    width: 13.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 1.5rem;
+}
+
+.img-container{
+    height: 15rem;
+    background-color: #7C4637;
+    border-radius: 20rem;
+    box-shadow: 0 0 4rem #000000;
+}
+
+.img-container:hover{
+    height: 15rem;
+    background-color: #633123;
+    border-radius: 20rem;
+    box-shadow: 0 0 9rem #000000;
+    cursor:pointer;
+}
+.comments{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 2rem;
+}
+#comments{
+    font-size: 2rem;
+    color: #FFB86F;
+    margin-left: 4rem;
+    margin-top: 6.5rem;
+}
+#computer,#player{
+    color: #BA5C12;
+    margin-top: 1.2rem;
+    font-size: 2rem;
+    padding-left: 6rem;
+}
+
+#restart{
+    padding: 0.7rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #3E2F5B;
+    box-shadow: 0 0 1rem #000000;
+    font-size: 1.25rem ;
+    color: #FFB86F;
+    margin-top: 1.5rem;
+}
+
+#restart:hover{
+    padding: 0.7rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #6638bc;
+    box-shadow: 0 0 3rem #000000;
+    font-size: 1.25rem ;
+    color: #FFB86F;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+/* CSS for the winner page  */
+
+.winner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:1rem;
+}
+h1#winner{
+    font-size: 6rem;
+    color: #BA5C12;
+    margin-top: 10%;
+    text-align: center;
+}
+
+#new-game{
+    padding: 0.7rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #3E2F5B;
+    box-shadow: 0 0 1rem #000000;
+    font-size: 1.25rem ;
+    color: #FFB86F;
+    margin-top: 1.5rem;
+}
+#new-game:hover{
+    padding: 0.7rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #6638bc;
+    box-shadow: 0 0 3rem #000000;
+    font-size: 1.25rem ;
+    color: #FFB86F;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+/* extras */
+
+.none{
+    display: none;
+}

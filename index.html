@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="RCS.css">
+</head>
+<body>
+
+    <!-- Welcome page  -->
+    <div class="welcome">
+        <h1 id="welcome">Stone-Paper-Scissor</h1>
+        <h3>Created by Velociraptor</h3>
+        <p id="welcome-para">Input the no of rounds you want to play</p>
+        <input type="number" id="rounds">
+        <button id="start-game">Start the Game</button>
+    </div>
+
+    <!-- main page  -->
+    <main>
+        <h2 id="main">Click on your choice</h2>
+        <div class="images">
+            <div class="img-container" id="stones">
+                <img src="stones.png" alt="stone" id="stone">
+            </div>
+            <div class="img-container" id="papers">
+                <img src="paper.png" alt="paper" id="paper">
+            </div>
+            <div class="img-container" id="scissors">
+                <img src="scissor.png" alt="scissor" id="scissor">
+            </div>
+            <div class="comments">
+                <p id="comments">Last round is </p>
+            </div>
+        </div>
+        <div class="score">
+            <p id="computer">Score of computer :- 0</p>
+            <p id="player">Score of player     :- 0</p>
+        </div>
+        <button id="restart">Restart the game</button>
+    </main>
+
+    <!-- winner page  -->
+    <div class="winner">
+        <h1 id="winner"></h1>
+        <button id="new-game">Start new Game</button>
+    </div>
+
+    <script src="RSC.js"></script>
+</body>
+</html>
